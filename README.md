@@ -9,6 +9,7 @@
 if(!require(devtools)){
   install.packages("devtool")
 }
+
 if(!require(ggcor)) {
   devtools::install_github("houyunhuang/ggcor")
 }
