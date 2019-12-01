@@ -3,15 +3,20 @@
 
 
 #install.packages("ggcor")
+
 #method_1
+
 if(!require(devtools))
   install.packages("devtool")
+
 if(!require(ggcor)) {
   devtools::install_github("houyunhuang/ggcor")
 }
 
 #method_2
+
 install.packages("remotes")
+
 remotes::install_github("houyunhuang/ggcor")
 
 
