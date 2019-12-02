@@ -2,10 +2,10 @@
 
 
 
-#correlation
+# correlation
 
 
-#install.packages("ggcor")
+# install.packages("ggcor")
 
 #method_1
 
@@ -33,4 +33,4 @@ ggcor(df) +
   remove_axis()#delete axis labels
   
   
-#more learning for ggcor to 'houyunhuang/ggcor'
+# more learning for ggcor to 'houyunhuang/ggcor'
