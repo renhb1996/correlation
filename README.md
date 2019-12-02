@@ -7,25 +7,22 @@
 # correlation
 
 
-# install.packages("ggcor")
+# install package of "ggcor" and require
 ```r
 #method_1
-
 if(!require(devtools)){
   install.packages("devtool")
 }
-
 if(!require(ggcor)) {
   devtools::install_github("houyunhuang/ggcor")
 }
 ```
 ```r
 #method_2
-
 install.packages("remotes")
-
 remotes::install_github("houyunhuang/ggcor")
 ```
+# processing
 ```r
 df <- fortify_cor(x=mtcars, cor.test = TRUE, cluster.type = "all")#correlation matrix
 ```
