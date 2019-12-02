@@ -3,9 +3,7 @@
 
 
 
-```r
 
-```
 # correlation
 
 
@@ -40,4 +38,4 @@ ggcor(df) +
   remove_axis()#delete axis labels
 ```  
   
-# more learning for ggcor to 'houyunhuang/ggcor'
+#more learning for ggcor to 'houyunhuang/ggcor'
