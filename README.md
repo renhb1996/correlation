@@ -37,5 +37,4 @@ ggcor(df) +
   
 #more learning for ggcor to 'houyunhuang/ggcor'
 
-# cor
-![image](https://github.com/renhb1996/correlation/blob/master/cor.png)
+
